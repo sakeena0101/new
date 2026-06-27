@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MALK Agency | Where Marketing Meets Measurable Growth</title>
+  <meta name="description" content="MALK Agency - Premium digital marketing agency in Gurugram. Social Media Marketing, Performance Marketing, Influencer Marketing, Content Creation & more." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&family=Manrope:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-logo">
+      <span class="loader-m">M</span>
+      <span class="loader-dot"></span>
+    </div>
+    <div class="loader-bar"><div class="loader-fill"></div></div>
+  </div>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <img src="malk_logo.jpeg" alt="MALK Agency Logo" class="logo-img" />
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#industries" class="nav-link">Industries</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#why-us" class="nav-link">Why Us</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Get Started</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="noise-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge reveal-up">
+        <span class="badge-dot"></span> Gurugram's Premium Growth Agency
+      </div>
+      <h1 class="hero-headline reveal-up">
+        <span class="line-wrap"><span class="line">Where <em>Marketing</em></span></span>
+        <span class="line-wrap"><span class="line">Meets <em>Measurable</em></span></span>
+        <span class="line-wrap"><span class="line"><em>Growth</em></span></span>
+      </h1>
+      <p class="hero-sub reveal-up">We don't just run campaigns — we build ecosystems that convert. From brand ignition to performance at scale, MALK delivers results your competitors will envy.</p>
+      <div class="hero-actions reveal-up">
+        <a href="#contact" class="btn-primary">Start Your Growth Journey <span class="btn-arrow">→</span></a>
+        <a href="#portfolio" class="btn-ghost">View Our Work</a>
+      </div>
+      <div class="hero-stats reveal-up">
+        <div class="stat">
+          <span class="stat-num" data-target="150">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Brands Scaled</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="4">0</span><span class="stat-suffix">x</span>
+          <span class="stat-label">Avg. ROAS</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="98">0</span><span class="stat-suffix">%</span>
+          <span class="stat-label">Client Retention</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"><div class="scroll-dot"></div></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-section">
+    <div class="marquee-track">
+      <div class="marquee-inner">
+        <span>Social Media Marketing</span><span class="sep">✦</span>
+        <span>Performance Marketing</span><span class="sep">✦</span>
+        <span>Influencer Marketing</span><span class="sep">✦</span>
+        <span>Content Creation</span><span class="sep">✦</span>
+        <span>UGC Content</span><span class="sep">✦</span>
+        <span>Video Editing</span><span class="sep">✦</span>
+        <span>Graphic Designing</span><span class="sep">✦</span>
+        <span>Web Development</span><span class="sep">✦</span>
+        <span>Branding</span><span class="sep">✦</span>
+        <span>SEO</span><span class="sep">✦</span>
+        <!-- duplicate for infinite scroll -->
+        <span>Social Media Marketing</span><span class="sep">✦</span>
+        <span>Performance Marketing</span><span class="sep">✦</span>
+        <span>Influencer Marketing</span><span class="sep">✦</span>
+        <span>Content Creation</span><span class="sep">✦</span>
+        <span>UGC Content</span><span class="sep">✦</span>
+        <span>Video Editing</span><span class="sep">✦</span>
+        <span>Graphic Designing</span><span class="sep">✦</span>
+        <span>Web Development</span><span class="sep">✦</span>
+        <span>Branding</span><span class="sep">✦</span>
+        <span>SEO</span><span class="sep">✦</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-left">
+          <div class="section-eyebrow reveal-left">Who We Are</div>
+          <h2 class="section-title reveal-left">We Are The <em>Growth Architects</em> Behind Your Brand</h2>
+          <p class="about-body reveal-left">MALK Agency is a full-stack digital marketing powerhouse based in Gurugram, built for brands that refuse to be average. We combine data-driven strategy with creative firepower to deliver campaigns that don't just look good — they convert.</p>
+          <p class="about-body reveal-left">From startups finding their voice to established brands scaling beyond borders, we've built the playbook that works across every industry.</p>
+          <div class="about-pillars reveal-left">
+            <div class="pillar"><span class="pillar-icon">◈</span><span>Data-First Strategy</span></div>
+            <div class="pillar"><span class="pillar-icon">◈</span><span>Creative Excellence</span></div>
+            <div class="pillar"><span class="pillar-icon">◈</span><span>Measurable Results</span></div>
+            <div class="pillar"><span class="pillar-icon">◈</span><span>Full-Stack Execution</span></div>
+          </div>
+        </div>
+        <div class="about-right reveal-right">
+          <div class="about-visual">
+            <div class="about-card ac-1">
+              <div class="ac-icon">📈</div>
+              <div class="ac-text">
+                <strong>Performance Marketing</strong>
+                <span>ROI-obsessed campaigns</span>
+              </div>
+            </div>
+            <div class="about-card ac-2">
+              <div class="ac-icon">🎯</div>
+              <div class="ac-text">
+                <strong>Precision Targeting</strong>
+                <span>Right message, right audience</span>
+              </div>
+            </div>
+            <div class="about-card ac-3">
+              <div class="ac-icon">🚀</div>
+              <div class="ac-text">
+                <strong>Rapid Scaling</strong>
+                <span>From zero to market leader</span>
+              </div>
+            </div>
+            <div class="about-glow"></div>
+            <div class="about-logo-wrap">
+              <img src="malk_logo.jpeg" alt="MALK" class="about-logo" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="services section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow reveal-up">What We Do</div>
+        <h2 class="section-title reveal-up">Services That <em>Move the Needle</em></h2>
+        <p class="section-sub reveal-up">Every service is built around one goal: your measurable growth.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card reveal-up" style="--delay:0s">
+          <div class="sc-number">01</div>
+          <div class="sc-icon">📱</div>
+          <h3>Social Media Marketing</h3>
+          <p>We build communities, not just followers. Strategic content, real engagement, and platform-native creatives that make your brand impossible to scroll past.</p>
+          <div class="sc-tags"><span>Instagram</span><span>Facebook</span><span>LinkedIn</span><span>YouTube</span></div>
+          <div class="sc-arrow">→</div>
+        </div>
+
+        <div class="service-card reveal-up" style="--delay:0.08s">
+          <div class="sc-number">02</div>
+          <div class="sc-icon">⚡</div>
+          <h3>Performance Marketing</h3>
+          <p>Every rupee tracked. Meta Ads, Google Ads, and programmatic campaigns engineered for maximum ROAS with relentless A/B testing and funnel optimization.</p>
+          <div class="sc-tags"><span>Meta Ads</span><span>Google Ads</span><span>ROAS Focus</span></div>
+          <div class="sc-arrow">→</div>
+        </div>
+
+        <div class="service-card reveal-up" style="--delay:0.16s">
+          <div class="sc-number">03</div>
+          <div class="sc-icon">🌟</div>
+          <h3>Influencer Marketing</h3>
+          <p>Nano to celebrity — we connect your brand with voices that actually move your audience. Authentic partnerships, trackable impact, zero fluff.</p>
+          <div class="sc-tags"><span>Nano</span><span>Micro</span><span>Macro</span><span>Celebrity</span></div>
+          <div class="sc-arrow">→</div>
+        </div>
+
+        <div class="service-card reveal-up" style="--delay:0.24s">
+          <div class="sc-number">04</div>
+          <div class="sc-icon">✍️</div>
+          <h3>Content Creation</h3>
+          <p>Scroll-stopping content crafted by storytellers who understand algorithms. Reels, carousels, blogs, scripts — content that converts browsers into buyers.</p>
+          <div class="sc-tags"><span>Reels</span><span>Carousels</span><span>Blogs</span><span>Scripts</span></div>
+          <div class="sc-arrow">→</div>
+        </div>
+
+        <div class="service-card reveal-up" style="--delay:0.32s">
+          <div class="sc-number">05</div>
+          <div class="sc-icon">🎬</div>
+          <h3>UGC Content</h3>
+          <p>Real creators, real stories. We produce authentic user-generated content that builds trust faster than any traditional ad — because people buy from people.</p>
+          <div class="sc-tags"><span>Authenticity</span><span>Trust</span><span>Conversion</span></div>
+          <div class="sc-arrow">→</div>
+        </div>
+
+        <div class="service-card reveal-up" style="--delay:0.4s">
+          <div class="sc-number">06</div>
+          <div class="sc-icon">🎥</div>
+          <h3>Video Editing</h3>
+          <p>From raw footage to viral-worthy content. Cinematic brand films, social cuts, reels, and ads edited to hold attention in the age of 3-second scrolls.</p>
+          <div class="sc-tags"><span>Brand Films</span><span>Reels</span><span>Ad Cuts</span></div>
+          <div class="sc-arrow">→</div>
+        </div>
+
+        <div class="service-card reveal-up" style="--delay:0.48s">
+          <div class="sc-number">07</div>
+          <div class="sc-icon">🎨</div>
+          <h3>Graphic Designing</h3>
+          <p>Visual identity that stops thumbs and starts conversations. Logos, brand kits, social templates, ads, and packaging designed with intent and precision.</p>
+          <div class="sc-tags"><span>Logo</span><span>Brand Kit</span><span>Social Templates</span></div>
+          <div class="sc-arrow">→</div>
+        </div>
+
+        <div class="service-card reveal-up" style="--delay:0.56s">
+          <div class="sc-number">08</div>
+          <div class="sc-icon">💻</div>
+          <h3>Web Development</h3>
+          <p>Blazing-fast, conversion-optimized websites and landing pages. Built for performance, designed to impress, engineered to rank and sell.</p>
+          <div class="sc-tags"><span>Landing Pages</span><span>E-commerce</span><span>Custom Dev</span></div>
+          <div class="sc-arrow">→</div>
+        </div>
+
+        <div class="service-card reveal-up" style="--delay:0.64s">
+          <div class="sc-number">09</div>
+          <div class="sc-icon">💎</div>
+          <h3>Branding</h3>
+          <p>We don't just design logos — we build brand universes. Strategy, positioning, visual identity, and brand voice crafted to dominate your market.</p>
+          <div class="sc-tags"><span>Strategy</span><span>Identity</span><span>Positioning</span></div>
+          <div class="sc-arrow">→</div>
+        </div>
+
+        <div class="service-card reveal-up" style="--delay:0.72s">
+          <div class="sc-number">10</div>
+          <div class="sc-icon">🔍</div>
+          <h3>SEO</h3>
+          <p>Rank at the top when it matters most. Technical SEO, content strategy, and link building that drives organic traffic with staying power — not quick fixes.</p>
+          <div class="sc-tags"><span>Technical</span><span>On-Page</span><span>Link Building</span></div>
+          <div class="sc-arrow">→</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- INDUSTRIES -->
+  <section id="industries" class="industries section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow reveal-up">Who We Serve</div>
+        <h2 class="section-title reveal-up">Every Industry. <em>One Agency.</em></h2>
+        <p class="section-sub reveal-up">We've cracked the code for growth across verticals — because great marketing principles are universal.</p>
+      </div>
+      <div class="industries-grid">
+        <div class="ind-card reveal-up" style="--delay:0s"><span class="ind-icon">🏢</span><span>Real Estate</span></div>
+        <div class="ind-card reveal-up" style="--delay:0.05s"><span class="ind-icon">👗</span><span>Clothing Brands</span></div>
+        <div class="ind-card reveal-up" style="--delay:0.1s"><span class="ind-icon">🛒</span><span>FMCG</span></div>
+        <div class="ind-card reveal-up" style="--delay:0.15s"><span class="ind-icon">⭐</span><span>Influencers</span></div>
+        <div class="ind-card reveal-up" style="--delay:0.2s"><span class="ind-icon">☕</span><span>Café & Restaurant</span></div>
+        <div class="ind-card reveal-up" style="--delay:0.25s"><span class="ind-icon">📦</span><span>E-commerce</span></div>
+        <div class="ind-card reveal-up" style="--delay:0.3s"><span class="ind-icon">🏥</span><span>Hospitals</span></div>
+        <div class="ind-card reveal-up" style="--delay:0.35s"><span class="ind-icon">🚀</span><span>Startups</span></div>
+        <div class="ind-card reveal-up" style="--delay:0.4s"><span class="ind-icon">🎓</span><span>Coaches & Educators</span></div>
+        <div class="ind-card reveal-up" style="--delay:0.45s"><span class="ind-icon">💰</span><span>Finance & Fintech</span></div>
+        <div class="ind-card reveal-up" style="--delay:0.5s"><span class="ind-icon">⚖️</span><span>Legal & Consulting</span></div>
+        <div class="ind-card reveal-up" style="--delay:0.55s"><span class="ind-icon">🎮</span><span>Gaming & Tech</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="portfolio section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow reveal-up">Our Work</div>
+        <h2 class="section-title reveal-up">Results We're <em>Proud Of</em></h2>
+        <p class="section-sub reveal-up">Every project is a story of transformation. Here's a glimpse of what we've built.</p>
+      </div>
+      <div class="portfolio-grid">
+
+        <div class="port-card reveal-up" style="--delay:0s">
+          <div class="port-img port-img-1">
+            <div class="port-overlay">
+              <span class="port-tag">Social Media</span>
+              <div class="port-view">View Case Study →</div>
+            </div>
+          </div>
+          <div class="port-info">
+            <h4>Real Estate Brand Launch</h4>
+            <p>3x leads in 60 days through targeted Meta campaigns and content strategy</p>
+            <div class="port-results">
+              <span>📈 300% Lead Growth</span>
+              <span>💰 4.2x ROAS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="port-card reveal-up" style="--delay:0.1s">
+          <div class="port-img port-img-2">
+            <div class="port-overlay">
+              <span class="port-tag">Performance</span>
+              <div class="port-view">View Case Study →</div>
+            </div>
+          </div>
+          <div class="port-info">
+            <h4>Fashion Brand E-commerce Scale</h4>
+            <p>From ₹2L to ₹25L monthly revenue with Google & Meta performance marketing</p>
+            <div class="port-results">
+              <span>📈 12x Revenue</span>
+              <span>💰 5.8x ROAS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="port-card reveal-up" style="--delay:0.2s">
+          <div class="port-img port-img-3">
+            <div class="port-overlay">
+              <span class="port-tag">Influencer</span>
+              <div class="port-view">View Case Study →</div>
+            </div>
+          </div>
+          <div class="port-info">
+            <h4>F&B Brand Influencer Campaign</h4>
+            <p>2M+ organic impressions through curated micro-influencer activations</p>
+            <div class="port-results">
+              <span>📈 2M+ Impressions</span>
+              <span>💰 800% Engagement Lift</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="port-card reveal-up" style="--delay:0.3s">
+          <div class="port-img port-img-4">
+            <div class="port-overlay">
+              <span class="port-tag">Branding</span>
+              <div class="port-view">View Case Study →</div>
+            </div>
+          </div>
+          <div class="port-info">
+            <h4>D2C Startup Brand Identity</h4>
+            <p>Complete brand universe from zero — logo, voice, social presence, and launch</p>
+            <div class="port-results">
+              <span>📈 50K Followers in 90 days</span>
+              <span>💰 Full Brand Build</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="port-card reveal-up" style="--delay:0.4s">
+          <div class="port-img port-img-5">
+            <div class="port-overlay">
+              <span class="port-tag">SEO</span>
+              <div class="port-view">View Case Study →</div>
+            </div>
+          </div>
+          <div class="port-info">
+            <h4>Hospital SEO Domination</h4>
+            <p>Page 1 rankings for 50+ high-intent keywords driving 200% organic traffic growth</p>
+            <div class="port-results">
+              <span>📈 200% Organic Traffic</span>
+              <span>💰 50+ Page 1 Keywords</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="port-card reveal-up" style="--delay:0.5s">
+          <div class="port-img port-img-6">
+            <div class="port-overlay">
+              <span class="port-tag">Content</span>
+              <div class="port-view">View Case Study →</div>
+            </div>
+          </div>
+          <div class="port-info">
+            <h4>Coach Content Strategy</h4>
+            <p>Viral content system generating consistent 100K+ views per reel for a business coach</p>
+            <div class="port-results">
+              <span>📈 100K+ Views/Reel</span>
+              <span>💰 5x Course Sales</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="port-cta reveal-up">
+        <p>These are placeholder case studies. Your real results will go here.</p>
+        <a href="#contact" class="btn-primary">Let's Create Your Success Story →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section id="why-us" class="why-us section">
+    <div class="container">
+      <div class="why-grid">
+        <div class="why-left">
+          <div class="section-eyebrow reveal-left">Why MALK</div>
+          <h2 class="section-title reveal-left">We Don't Just <em>Promise</em> Growth. We <em>Prove</em> It.</h2>
+          <p class="reveal-left">Most agencies talk strategy. We talk results. Every campaign we run is backed by data, powered by creativity, and held accountable to your KPIs.</p>
+          <a href="#contact" class="btn-primary reveal-left" style="display:inline-flex;margin-top:2rem">Get a Free Audit →</a>
+        </div>
+        <div class="why-right">
+          <div class="why-item reveal-right" style="--delay:0s">
+            <div class="why-icon">🎯</div>
+            <div class="why-text">
+              <h4>Strategy Before Tactics</h4>
+              <p>We build the full funnel before touching any ad account — positioning, audience architecture, and messaging that resonates.</p>
+            </div>
+          </div>
+          <div class="why-item reveal-right" style="--delay:0.1s">
+            <div class="why-icon">📊</div>
+            <div class="why-text">
+              <h4>Radical Transparency</h4>
+              <p>Real-time dashboards, weekly reports, monthly strategy calls. You'll always know exactly where your budget is going and what it's returning.</p>
+            </div>
+          </div>
+          <div class="why-item reveal-right" style="--delay:0.2s">
+            <div class="why-icon">⚡</div>
+            <div class="why-text">
+              <h4>Speed Without Compromise</h4>
+              <p>Fast execution meets meticulous quality. We move quickly because we have the systems — not because we're cutting corners.</p>
+            </div>
+          </div>
+          <div class="why-item reveal-right" style="--delay:0.3s">
+            <div class="why-icon">🤝</div>
+            <div class="why-text">
+              <h4>True Partnership</h4>
+              <p>We're not a vendor — we're your growth team. We think about your business the way founders do, because your win is our win.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow reveal-up">Client Love</div>
+        <h2 class="section-title reveal-up">What Our <em>Clients Say</em></h2>
+      </div>
+      <div class="testimonials-slider">
+        <div class="testi-track" id="testiTrack">
+
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"MALK completely transformed our social media presence. In 3 months, we went from 2K to 40K followers and our leads doubled. The team is incredibly data-driven and creative at the same time."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">RS</div>
+              <div>
+                <strong>Rahul Sharma</strong>
+                <span>CEO, Real Estate Firm, Gurugram</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"Their performance marketing team achieved 5x ROAS in our first campaign. What other agencies promised in 6 months, MALK delivered in 6 weeks. Absolutely phenomenal."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">PK</div>
+              <div>
+                <strong>Priya Khanna</strong>
+                <span>Founder, D2C Fashion Brand</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"The content quality is unmatched. Our reels now consistently cross 500K views and our café has been featured organically by top food bloggers. MALK knows how to make brands go viral."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">AM</div>
+              <div>
+                <strong>Arjun Mehta</strong>
+                <span>Owner, The Brew House Café</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"From zero online presence to 1 lakh followers in 4 months — MALK built our entire digital identity from scratch. The branding, content, and strategy all align perfectly."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">NK</div>
+              <div>
+                <strong>Neha Kapoor</strong>
+                <span>Business Coach & Entrepreneur</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="testi-controls">
+          <button class="testi-prev" id="testiPrev" aria-label="Previous">←</button>
+          <div class="testi-dots" id="testiDots"></div>
+          <button class="testi-next" id="testiNext" aria-label="Next">→</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow reveal-up">How We Work</div>
+        <h2 class="section-title reveal-up">Our Growth <em>Process</em></h2>
+      </div>
+      <div class="process-steps">
+        <div class="process-step reveal-up" style="--delay:0s">
+          <div class="ps-num">01</div>
+          <div class="ps-content">
+            <h4>Discovery & Audit</h4>
+            <p>Deep dive into your brand, market, competitors, and current performance to identify the real growth levers.</p>
+          </div>
+          <div class="ps-connector"></div>
+        </div>
+        <div class="process-step reveal-up" style="--delay:0.1s">
+          <div class="ps-num">02</div>
+          <div class="ps-content">
+            <h4>Strategy Architecture</h4>
+            <p>We build a custom growth blueprint — channel strategy, audience mapping, content pillars, and KPI targets.</p>
+          </div>
+          <div class="ps-connector"></div>
+        </div>
+        <div class="process-step reveal-up" style="--delay:0.2s">
+          <div class="ps-num">03</div>
+          <div class="ps-content">
+            <h4>Creative Execution</h4>
+            <p>Our creative team produces content, ads, and assets that are platform-native and conversion-optimized.</p>
+          </div>
+          <div class="ps-connector"></div>
+        </div>
+        <div class="process-step reveal-up" style="--delay:0.3s">
+          <div class="ps-num">04</div>
+          <div class="ps-content">
+            <h4>Launch & Optimize</h4>
+            <p>We go live, monitor obsessively, and iterate rapidly. Data drives every decision after launch.</p>
+          </div>
+          <div class="ps-connector"></div>
+        </div>
+        <div class="process-step reveal-up" style="--delay:0.4s">
+          <div class="ps-num">05</div>
+          <div class="ps-content">
+            <h4>Scale & Report</h4>
+            <p>What works gets amplified. You get transparent reports and a clear path to continued growth.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-left reveal-left">
+          <div class="section-eyebrow">Let's Talk</div>
+          <h2 class="section-title">Ready to <em>Grow</em>?<br>We're One Call Away.</h2>
+          <p>Whether you're launching a brand, scaling an existing one, or just want to know where your marketing is leaking — we're here to help. No fluff, just strategy.</p>
+
+          <div class="contact-info">
+            <div class="ci-item">
+              <div class="ci-icon">📞</div>
+              <div class="ci-text">
+                <strong>Call Us</strong>
+                <a href="tel:+918168856622">+91 81688 56622</a>
+                <a href="tel:+918930600149">+91 89306 00149</a>
+                <a href="tel:+919350077001">+91 93500 77001</a>
+                <a href="tel:+918950468575">+91 89504 68575</a>
+              </div>
+            </div>
+            <div class="ci-item">
+              <div class="ci-icon">📍</div>
+              <div class="ci-text">
+                <strong>Visit Us</strong>
+                <span>Signature Global City, J61, Basement,<br>Sector 37D, Gurugram - 122001</span>
+              </div>
+            </div>
+            <div class="ci-item">
+              <div class="ci-icon">🌐</div>
+              <div class="ci-text">
+                <strong>Follow Us</strong>
+                <div class="social-links">
+                  <a href="https://www.instagram.com/malkagency/" target="_blank" class="social-link">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    Instagram
+                  </a>
+                  <a href="https://www.facebook.com/profile.php?id=61576428707594" target="_blank" class="social-link">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    Facebook
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-right reveal-right">
+          <div class="contact-form-wrap">
+            <h3>Get Your <span class="gold">Free Strategy</span> Call</h3>
+            <p class="form-sub">Tell us about your brand. We'll tell you exactly how to grow it.</p>
+            <form class="contact-form" id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Your Name *</label>
+                  <input type="text" placeholder="Rahul Sharma" required />
+                </div>
+                <div class="form-group">
+                  <label>Phone Number *</label>
+                  <input type="tel" placeholder="+91 98765 43210" required />
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Business / Brand Name *</label>
+                <input type="text" placeholder="Your Brand Name" required />
+              </div>
+              <div class="form-group">
+                <label>Industry</label>
+                <select>
+                  <option value="">Select Industry</option>
+                  <option>Real Estate</option>
+                  <option>Clothing / Fashion</option>
+                  <option>FMCG</option>
+                  <option>Influencer / Creator</option>
+                  <option>Café / Restaurant</option>
+                  <option>E-commerce</option>
+                  <option>Hospital / Healthcare</option>
+                  <option>Startup</option>
+                  <option>Coaching / Education</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Services Interested In</label>
+                <div class="checkbox-grid">
+                  <label class="checkbox-label"><input type="checkbox" /><span>Social Media</span></label>
+                  <label class="checkbox-label"><input type="checkbox" /><span>Performance Ads</span></label>
+                  <label class="checkbox-label"><input type="checkbox" /><span>Influencer</span></label>
+                  <label class="checkbox-label"><input type="checkbox" /><span>Content Creation</span></label>
+                  <label class="checkbox-label"><input type="checkbox" /><span>Branding</span></label>
+                  <label class="checkbox-label"><input type="checkbox" /><span>SEO</span></label>
+                  <label class="checkbox-label"><input type="checkbox" /><span>Web Dev</span></label>
+                  <label class="checkbox-label"><input type="checkbox" /><span>Video Editing</span></label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Monthly Budget Range</label>
+                <select>
+                  <option value="">Select Budget</option>
+                  <option>Under ₹25,000</option>
+                  <option>₹25,000 - ₹50,000</option>
+                  <option>₹50,000 - ₹1,00,000</option>
+                  <option>₹1,00,000 - ₹2,50,000</option>
+                  <option>₹2,50,000+</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Message (Optional)</label>
+                <textarea placeholder="Tell us about your goals, current challenges, or anything else..." rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn-primary form-submit">
+                Book My Free Strategy Call <span class="btn-arrow">→</span>
+              </button>
+              <p class="form-disclaimer">🔒 100% Confidential. No spam, ever. We'll reach out within 24 hours.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="malk_logo.jpeg" alt="MALK Agency" class="footer-logo" />
+          <p>Where Marketing Meets Measurable Growth. Your brand's growth story starts here.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/malkagency/" target="_blank" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61576428707594" target="_blank" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="#services">Social Media Marketing</a></li>
+            <li><a href="#services">Performance Marketing</a></li>
+            <li><a href="#services">Influencer Marketing</a></li>
+            <li><a href="#services">Content Creation</a></li>
+            <li><a href="#services">UGC Content</a></li>
+            <li><a href="#services">Video Editing</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>More Services</h5>
+          <ul>
+            <li><a href="#services">Graphic Designing</a></li>
+            <li><a href="#services">Web Development</a></li>
+            <li><a href="#services">Branding</a></li>
+            <li><a href="#services">SEO</a></li>
+          </ul>
+          <h5 style="margin-top:1.5rem">Industries</h5>
+          <ul>
+            <li><a href="#industries">Real Estate</a></li>
+            <li><a href="#industries">E-commerce</a></li>
+            <li><a href="#industries">Hospitality</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <ul class="footer-contact">
+            <li><span>📞</span><a href="tel:+918168856622">+91 81688 56622</a></li>
+            <li><span>📞</span><a href="tel:+918930600149">+91 89306 00149</a></li>
+            <li><span>📞</span><a href="tel:+919350077001">+91 93500 77001</a></li>
+            <li><span>📞</span><a href="tel:+918950468575">+91 89504 68575</a></li>
+            <li><span>📍</span><span>Signature Global City, J61,<br>Basement, Sector 37D,<br>Gurugram - 122001</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 MALK Agency. All rights reserved. | Where Marketing Meets Measurable Growth.</p>
+        <p>Designed & Developed with ❤️ for brands that mean business.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING CTA -->
+  <a href="https://wa.me/918168856622?text=Hi%20MALK%20Agency%2C%20I%27m%20interested%20in%20your%20services" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
